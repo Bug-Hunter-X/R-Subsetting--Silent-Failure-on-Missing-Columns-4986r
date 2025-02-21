@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in R related to subsetting data frames using character vectors.  When you try to access columns that don't exist, R silently ignores them instead of throwing an error, which can lead to unexpected results and hard-to-debug issues. The bug.R file contains the problematic code, while bugSolution.R offers a robust solution.
+
+This bug is particularly tricky because it doesn't produce an obvious error message. The program runs without crashing but produces incorrect results due to missing data.  Understanding this behavior is crucial for writing reliable R code.
